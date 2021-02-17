@@ -7,7 +7,7 @@ jobs:
   create-release:
     runs-on: macos-10.15
     env:
-        UPSTREAM_REPO: apple/swift-protobuf
+        UPSTREAM_REPO: pinterest/PINCache
 
     steps:
       - name: checkout
